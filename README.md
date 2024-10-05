@@ -32,7 +32,7 @@ Supports Windows (x64/x86), Linux (x64/arm64) and macOS 10.15+ (intel/apple).
 - 高性能海外机场，免费试用，优惠套餐，解锁流媒体，全球首家支持 Hysteria 协议。
 - 使用 Clash Verge 专属邀请链接注册送 3 天，每天 1G 流量免费试用：[https://tg3.9999922.xyz](https://tg3.9999922.xyz/#/register?code=nRx0UI5X)
 - Clash Verge 专属 8 折优惠码: verge20 (仅有 500 份)
-- 优惠套餐每月仅需 15.8 元，160G 流量，年付 8 折
+- 优惠套餐每月仅需 9.9 元，140G 流量，年付 8 折
 - 海外团队，无跑路风险，高达 40% 返佣
 - 集群负载均衡设计，高速专线(兼容老客户端)，极低延迟，无视晚高峰，4K 秒开
 - 全球首家 SS 协议机场 协议(Clash Verge 客户端最佳搭配)
