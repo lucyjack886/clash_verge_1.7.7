@@ -1,4 +1,5 @@
 import LogsPage from "./logs";
+import XingChenPage from "./xingchen"; // 导入新的页面组件
 import ProxiesPage from "./proxies";
 import TestPage from "./test";
 import ProfilesPage from "./profiles";
@@ -25,6 +26,12 @@ import SettingsRoundedIcon from "@mui/icons-material/SettingsRounded";
 
 export const routers = [
   {
+    label: "Label-XingChen",
+    path: "/xingchen",
+    icon: [<WifiTetheringRoundedIcon />, <TestSvg />],
+    element: <XingChenPage />,
+  },
+  {
     label: "Label-Proxies",
     path: "/",
     icon: [<WifiRoundedIcon />, <ProxiesSvg />],
@@ -48,23 +55,23 @@ export const routers = [
     icon: [<ForkRightRoundedIcon />, <RulesSvg />],
     element: <RulesPage />,
   },
-  {
-    label: "Label-Logs",
-    path: "/logs",
-    icon: [<SubjectRoundedIcon />, <LogsSvg />],
-    element: <LogsPage />,
-  },
-  {
-    label: "Label-Test",
-    path: "/test",
-    icon: [<WifiTetheringRoundedIcon />, <TestSvg />],
-    element: <TestPage />,
-  },
+  // {
+  //   label: "Label-Test",
+  //   path: "/test",
+  //   icon: [<WifiTetheringRoundedIcon />, <TestSvg />],
+  //   element: <TestPage />,
+  // },
   {
     label: "Label-Settings",
     path: "/settings",
     icon: [<SettingsRoundedIcon />, <SettingsSvg />],
     element: <SettingsPage />,
+  },
+  {
+    label: "Label-Logs",
+    path: "/logs",
+    icon: [<SubjectRoundedIcon />, <LogsSvg />],
+    element: <LogsPage />,
   },
 ].map((router) => ({
   ...router,

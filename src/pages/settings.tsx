@@ -17,7 +17,7 @@ const SettingPage = () => {
   };
 
   const toGithubRepo = useLockFn(() => {
-    return openWebUrl("https://github.com/clash-verge-rev/clash-verge-rev");
+    return openWebUrl("https://github.com/lucyjack886/clash_verge_1.7.7");
   });
 
   const toGithubDoc = useLockFn(() => {
@@ -25,7 +25,7 @@ const SettingPage = () => {
   });
 
   const toTelegramChannel = useLockFn(() => {
-    return openWebUrl("https://t.me/clash_verge_re");
+    return openWebUrl("https://t.me/starrySkyCloud");
   });
 
   const mode = useThemeMode();
@@ -36,14 +36,14 @@ const SettingPage = () => {
       title={t("Settings")}
       header={
         <ButtonGroup variant="contained" aria-label="Basic button group">
-          <IconButton
+          {/* <IconButton
             size="medium"
             color="inherit"
             title={t("Manual")}
             onClick={toGithubDoc}
           >
             <HelpOutlineRounded fontSize="inherit" />
-          </IconButton>
+          </IconButton> */}
           <IconButton
             size="medium"
             color="inherit"
@@ -53,14 +53,14 @@ const SettingPage = () => {
             <Telegram fontSize="inherit" />
           </IconButton>
 
-          <IconButton
+          {/* <IconButton
             size="medium"
             color="inherit"
             title={t("Github Repo")}
             onClick={toGithubRepo}
           >
             <GitHub fontSize="inherit" />
-          </IconButton>
+          </IconButton> */}
         </ButtonGroup>
       }
     >
